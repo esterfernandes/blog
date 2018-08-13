@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bootstrap Form</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body style="background: url('img/fundo3.jpg');">
+
+    <div class="container bg-light">
+      <!-- Seu código vai aqui!! -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light>
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Esporte <span class="sr-only">(current)</span></a>
+      </li>
+     <li class="nav-item active">
+        <a class="nav-link" href="#">Politica <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Saúde <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+
+<div class="col">
+<img src="img/anuncio.png">
+<p>
+  <h3>Pato Futsal vence Atlântico na prorrogação e conquista o título da Taça Brasil</h3>
+</p>
+<p>
+  O Pato Futsal é o novo campeão da Taça Brasil de Clubes. Neste domingo, a equipe paranaense venceu o Atlântico Erechim, na prorrogação, por 4 a 2, na casa do rival, para conquistar o título inédito em sua história. A façanha veio com a presença do goleiro-linha em quadra, que fez a diferença quando o time estava em desvantagem de 2 a 1 no tempo extra e com a necessidade de vencer para ser campeão. <br><br>
+
+Em um jogo travado por causa da forte marcação, as chances claras de gol foram raras. Cabreúva acertou a trave com quatro minutos de jogo. No entanto, o placar só foi saiu do zero faltando dois minutos para terminar o primeiro tempo. Silva completou cobrança de escanteio de Café para fazer 1 a 0 para o Atlântico Erechim. <br><br>
+<img src="img/pato.png"> <br><br>
+</p>
+<p>
+  O Pato Futsal ainda respondeu na sequência com uma bola na trave de Gouvea. Mas a reação do time demorou a acontecer e veio com a colaboração do goleiro Djony a sete minutos do fim do segundo tempo. Depois de evitar o segundo gol do Atlântico Erechim ao defender um chute de Wilsinho cara a cara, ele deu o passe para Danilo Baron, de letra, tocar por entre as pernas de Careca e empatar o jogo. <br><br>
+
+Na prorrogação, o Atlântico Erechim carregou a vantagem do empate por ter melhor campanha na primeira fase. No entanto, o time foi atrás do resultado e conseguiu um belo gol logo no começo do primeiro tempo extra. Cabreúva cruzou e Jé acertou um voleio para fazer 2 a 1. <br><br>
+
+Na semifinal, o Pato Futsal já havia superado um rival com a vantagem do empate. Atrás no placar, o time colocou em quadra Robério como goleiro-linha. A pressão deu certo. Ainda no primeiro tempo extra, Well empatou e esquentou de vez os cinco minutos finais da decisão do título. <br><br>
+
+No segundo tempo extra, o Pato Futsal teve uma grande chance com menos de 30 segundos de jogo, mas Cabreúva salvou. Com a necessidade de vencer, o time apostou em Baron como goleiro-linha no lugar de Robério. E funcionou. Rapidamente, Baron encontrou Robério dentro da área para virar. <br><br>
+
+O Pato Futsal passou a ser o dono do jogo. Em uma grande troca de passes, Dudu aumentou a vantagem para 4 a 2 a três minutos do fim, somando o placar do tempo normal e da prorrogação. O Atlântico Erechim, então, precisou correr atrás de dois gols e colocou Cabreúva como goleiro-linha. Mas não teve a eficiência do rival. <br><br>
+
+A Taça Brasil de Clubes deste ano contou ainda com a participação ainda de Joinville-SC, Minas Tênis Clube-MG, Horizonte-CE, Sorocaba-SP, Assoeva-RS, Constelação-RR, Portuguesa-RJ e Cruzeiro-RN. <br><br>
+
+
+</p>
+</div>
+<!-- Não mexa daqui para baixo!!! -->
+    <script src="./assets/js/vendor/jquery-slim.min.js"></script>
+    <script src="./assets/js/vendor/popper.min.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+    <script src="./assets/js/vendor/holder.min.js"></script>
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function() {
+        'use strict';
+
+        window.addEventListener('load', function() {
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
+
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+    </script>
+  </body>
+</html>
