@@ -16,7 +16,7 @@
 
   
 	<!-- Seu código vai aqui! -->
-   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="index.html">Bala Bolada</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -29,8 +29,8 @@
           Esporte
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="decomer.html">Balas de comer</a>
-          <a class="dropdown-item" href="dematar.html">Balas de matar</a>
+          <a class="dropdown-item" href="#">Feminino</a>
+          <a class="dropdown-item" href="#">Masculino</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -38,8 +38,8 @@
           Saude
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="decomer.html">Balas de comer</a>
-          <a class="dropdown-item" href="dematar.html">Balas de matar</a>
+          <a class="dropdown-item" href="#">Doenças/infecções</a>
+          <a class="dropdown-item" href="#">SUS(sistema unitario de saude)</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -47,8 +47,8 @@
           Politica
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="decomer.html">Balas de comer</a>
-          <a class="dropdown-item" href="dematar.html">Balas de matar</a>
+          <a class="dropdown-item" href="#">...</a>
+          <a class="dropdown-item" href="#">...</a>
         </div>
       </li>
         <li class="nav-item dropdown">
@@ -56,10 +56,12 @@
             Desastres
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="decomer.html">Balas de comer</a>
-            <a class="dropdown-item" href="dematar.html">Balas de matar</a>
+            <a class="dropdown-item" href="#">Normais(homem)</a>
+            <a class="dropdown-item" href="#">Naturais(natureza)</a>
           </div>
         </li>
+        <li class="nav-item">
+        <a class="nav-link" href="cadastro.html">Cadastro</a>
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Search">
@@ -101,9 +103,58 @@
        <a href="promoção.html" class="btn btn-block mt-3 mb-3 btn-dark">Registrar</a>
       </div>
       <div class="form-row">
-        <p>Ja tem cadastro? Acesse <span><a href="login.html" class="badge badge-light"> aqui </a></span></p>
+        <p>Ja tem cadastro? Acesse <span><button type="button" class="btn btn-ligth" data-toggle="modal" data-target="#exampleModal">
+   aqui
+</button></span></p>
       </div>
   </form>
+</div>
+
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">nome do blog</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container" style="background-color:  ">
+    <h1>Login</h1>
+    <form>
+      <div class="form-row justify-content-center">
+        <div class="col">
+          <label for="email">Email</label>
+          <input type="email" id="email" class="form-control" placeholder="exemplo@gmail.com">
+        </div>
+      </div>
+      <div class="form-row justify-content-center">
+          <div class="col">
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" class="form-control" placeholder="senha">
+          </div> 
+      </div>
+    </form>
+    <div class="form-row">
+      <a href="promoção.html" class="btn btn-block mt-3 mb-3 btn-dark">Login</a>
+    </div>
+    <div class="form-row">
+        <p>Ainda não tem cadastro? Acesse <span><a href="cadastro.html" class="badge badge-light"> aqui </a></span></p>
+      </div>
+  </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Sair</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Salvar</button>
+      </div>
+    </div>
+  </div>
 </div>
 
     <!-- Bootstrap core JavaScript
